@@ -1,0 +1,32 @@
+header h1{
+    color: rgb(191, 35, 87);
+    font-size: 3rem;
+    font-weight: 900;
+}
+header p{
+    font-weight: 600;
+    font-size: 2rem;
+}
+
+navbar ul{
+  list-style: none;
+  display: flex;
+  font-weight: bold;
+  font-size: 1.3rem;
+  background-color: gray;
+  color: white;
+  margin: 1rem 0;
+}
+header{
+    margin: 0rem 4rem;
+}
+
+navbar li{
+    width: 19rem;
+    padding:0 1rem;
+    text-align: center;
+}
+navbar li:hover{
+    background-color:rgb(191, 35, 87);
+    color: black;
+}

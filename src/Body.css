@@ -1,0 +1,68 @@
+main{
+    margin: 0  4rem;
+}
+#hero{
+    background-image: url("https://movementforhealth.co.uk/wp-content/uploads/2021/09/FBS2.png");
+    height: 90vh;
+    background-size:cover;
+}
+
+#hero:hover{
+    border: 4px solid  rgb(191, 35, 87);
+}
+
+#content{
+    background-color: rgb(191, 35, 87);
+    margin: 1rem 0;
+    padding: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border: 4px solid rgb(191, 35, 87);
+}
+#inner-content{
+    width: 40vw;
+    text-align: center;
+}
+#inner-content h2{
+    font-size: 2.7rem;
+}
+#inner-content p{
+    margin: 1rem;
+    font-weight: 700;
+}
+button{
+ padding:0.5rem 1rem;
+ color: white;
+ font-weight: 800;
+ background-color: transparent;
+ margin: 0.5rem;
+ border: 1px solid white;
+}
+
+button:hover{
+    background-color: white;
+    color:rgb(191, 35, 87);
+}
+
+#content:hover{
+    border: 4px solid yellow;
+}
+#details{
+    padding:1rem 2rem;
+    font-weight: 700;
+}
+#details p{
+   margin: 1rem;
+   font-size: 1.2rem;
+}
+.pink{
+    color: rgb(191, 35, 87);
+}
+#contact{
+    text-align: center;
+}
+#contact h2{
+    margin: 1.5rem;
+}
